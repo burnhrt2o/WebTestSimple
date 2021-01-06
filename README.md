@@ -1,2 +1,11 @@
 # WebTestSimple
-Test project for a rather simple web server without any sophisticated web frameworks.
+- Test project for a rather simple web server setup without any sophisticated web frameworks.
+- Using nginx:alpine Docker image - see [Docker hub page](https://hub.docker.com/_/nginx) and [Dockerfile on GitHub](https://github.com/nginxinc/docker-nginx/blob/41156d8a36bd03b2fb36353ba31f16ada08d9e48/mainline/alpine/Dockerfile).
+- Implemented features:
+  - Basic user authentication for specified location
+  - autoindexing for specified location
+- Open issues:
+  - SSL access using ssl-cert self-signed certificates
+- References:
+  - [NGINX Cookbook](https://www.nginx.com/resources/library/complete-nginx-cookbook/) by Derek DeJonghe
+  - [Docker - Das Praxisbuch für Entwickler und DevOps-Teams](https://www.rheinwerk-verlag.de/docker-das-praxisbuch-fuer-entwickler-und-devops-teams/) by B.Öggl,M.Kofler
